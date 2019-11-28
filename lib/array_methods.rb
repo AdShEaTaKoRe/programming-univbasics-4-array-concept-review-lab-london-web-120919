@@ -11,7 +11,7 @@ def find_max_value(array)
   x = 0
  array.length.times {|i|
     if array[i] > x
-    x = array[i]
+      x = array[i]
     end
   }
   x
@@ -21,8 +21,8 @@ def find_min_value(array)
   x = array[0]
  array.length.times {|i|
     if array[i] < x
-    x = array[i]
-  end
+      x = array[i]
+    end
   }
   x
 end
